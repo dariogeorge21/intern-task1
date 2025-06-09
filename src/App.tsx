@@ -83,7 +83,7 @@ export default function App() {
           <button className="action-btn">Dropped Users</button>
           <button className="action-btn">Blacklisted Users</button>
           <button className="action-btn">Export Data</button>
-          <button className="action-btn primary">Add Guest</button>
+          <button className="action-btn">Add Guest</button>
         </section>
 
         <section className="guests-section">

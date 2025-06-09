@@ -141,7 +141,7 @@ body {
 .progress-fill {
   height: 100%;
   width: 75%;
-  background: linear-gradient(90deg, #8b5cf6, #06b6d4);
+  background: #8b5cf6;
   border-radius: 4px;
 }
 
@@ -186,11 +186,6 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.9rem;
-}
-
-.action-btn.primary {
-  background-color: #8b5cf6;
-  border-color: #8b5cf6;
 }
 
 .guests-section h2 {
