@@ -242,6 +242,11 @@ body {
   font-size: 0.8rem;
 }
 
+.filters-row {
+  display: flex;
+  gap: 12px;
+}
+
 .guests-table {
   background-color: #16213e;
   border-radius: 8px;

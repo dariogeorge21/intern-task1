@@ -1,9 +1,7 @@
-
 import './App.css'
 
 export default function App() {
 
-  // Define the type for a guest
   type Guest = {
     name: string;
     email: string;
@@ -97,18 +95,23 @@ export default function App() {
           <div className="guests-header">
             <h3>Recent Guests(30)</h3>
             <div className="filters">
-              <select>
-                <option>Select Multiple</option>
-              </select>
-              <select>
-                <option>Checked In</option>
-              </select>
-              <select>
-                <option>Approval Status</option>
-              </select>
-              <select>
-                <option>Registration Status</option>
-              </select>
+              <div className="filters-row">{/* Add CSS for horizontal layout */}
+                <select>
+                  <option>Select Multiple</option>
+                </select>
+                <select>
+                  <option>Checked In</option>
+                </select>
+                <select>
+                  <option>Approval Status</option>
+                </select>
+                <select>
+                  <option>Registration Status</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
           <div className="guests-table">
             {guests.map((guest: Guest, index: number) => (
               <div key={index} className="guest-row">
@@ -125,9 +128,6 @@ export default function App() {
                 </div>
               </div>
             ))}
-          </div>
-              </div>
-  
           </div>
         </section>
 
