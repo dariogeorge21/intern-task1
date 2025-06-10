@@ -9,15 +9,15 @@ export default function App() {
   };
 
   const guests: Guest[] = [
-    { name: 'Ananthu M P', email: 'emp2@acme', time: '5 days ago' },
-    { name: 'Aro Ann', email: 'anann23', time: '1 week ago' },
-    { name: 'Ananthu M P', email: 'emp2@acme', time: '2 weeks ago' },
-    { name: 'Ananthu M P', email: 'ananthu.mp2173', time: '3 weeks ago' },
-    { name: 'Ananthu M P', email: 'emp2@acme', time: '4 weeks ago' },
+    { name: 'Ananthu M P', email: 'chn21ec019', time: '5 days ago' },
+    { name: 'Aro Ann', email: 'Aroann23', time: '1 week ago' },
+    { name: 'Ananthu M P', email: 'chn21ec019', time: '2 weeks ago' },
+    { name: 'Ananthu M P', email: 'ananthu.mp333', time: '3 weeks ago' },
+    { name: 'Ananthu M P', email: 'chn21ec019', time: '4 weeks ago' },
     { name: 'Aswin Asok', email: 'aswinasokofficial', time: '4 weeks ago' },
-    { name: 'Ananthu M P', email: 'emp2@acme', time: '4 weeks ago' },
+    { name: 'Ananthu M P', email: 'chn21ec019', time: '4 weeks ago' },
     { name: 'Aswin Asok', email: 'aswinasokofficial', time: '4 weeks ago' },
-    { name: 'Ananthu M P', email: 'ananthumpk.magic', time: '5 weeks ago' }
+    { name: 'Ananthu M P', email: 'ananthunandu.magic', time: '5 weeks ago' }
   ];
 
   return (
