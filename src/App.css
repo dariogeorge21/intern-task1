@@ -268,7 +268,7 @@ body {
   gap: 1rem;
 }
 
-.filters select {
+.filters select, button{
   padding: 0.5rem;
   background-color: #2a2a4a;
   border: 1px solid #666;

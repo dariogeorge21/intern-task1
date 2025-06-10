@@ -132,9 +132,7 @@ export default function App() {
             <h3>Recent Guests(30)</h3>
             <div className="filters">
               <div className="filters-row">
-                <select>
-                  <option>Select Multiple</option>
-                </select>
+                <button>Select Multiple</button>
                 <select>
                   <option>Checked In</option>
                 </select>
