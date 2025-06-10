@@ -57,8 +57,8 @@ export default function App() {
       <nav className="navbar">
         <span>Overview</span>
         <span>Insights</span>
-        <span className="active">Guests | </span>
-        <span>Event Page</span>
+        <span className="active">Guests </span>
+        <span>| Event Page</span>
         <span>Form Builder | </span>
         <span>Scan QR</span>
         <span>In-Event | </span>
@@ -156,10 +156,9 @@ export default function App() {
                 <div className="guest-time">{guest.time}</div>
                 <div className="guest-actions">
                   <button className="action-icon">
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M6.99992 13.6666C3.31802 13.6666 0.333252 10.6818 0.333252 6.99998C0.333252 3.31808 3.31802 0.333313 6.99992 0.333313C10.6818 0.333313 13.6666 3.31808 13.6666 6.99998C13.6666 10.6818 10.6818 13.6666 6.99992 13.6666ZM6.99992 12.3333C9.94545 12.3333 12.3333 9.94551 12.3333 6.99998C12.3333 4.05446 9.94545 1.66665 6.99992 1.66665C4.0544 1.66665 1.66659 4.05446 1.66659 6.99998C1.66659 9.94551 4.0544 12.3333 6.99992 12.3333ZM6.33499 9.66665L3.50658 6.83825L4.44939 5.89538L6.33499 7.78105L10.1063 4.00979L11.0491 4.9526L6.33499 9.66665Z" fill="#8E8E8E"/>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 9.50001V12H2.5L9.87333 4.62668L7.37333 2.12668L0 9.50001ZM11.8067 2.69335C11.8685 2.63167 11.9175 2.55841 11.951 2.47776C11.9844 2.39711 12.0016 2.31066 12.0016 2.22335C12.0016 2.13603 11.9844 2.04958 11.951 1.96893C11.9175 1.88828 11.8685 1.81502 11.8067 1.75335L10.2467 0.193345C10.185 0.131543 10.1117 0.0825112 10.0311 0.0490569C9.95043 0.0156025 9.86398 -0.00161743 9.77667 -0.00161743C9.68935 -0.00161743 9.6029 0.0156025 9.52225 0.0490569C9.4416 0.0825112 9.36834 0.131543 9.30667 0.193345L8.08667 1.41335L10.5867 3.91335L11.8067 2.69335Z" fill="#8E8E8E"/>
                     </svg>
-
                   </button>
                   <button className="action-icon">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
