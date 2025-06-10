@@ -22,8 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #16213e;
-  border-bottom: 1px solid #2a2a4a;
+
 }
 
 .header-left {
@@ -44,15 +43,24 @@ body {
   font-size: 1.1rem;
 }
 
-.demo-badge {
-  background-color: #4ade80;
-  color: #000;
-  padding: 0.2rem 0.5rem;
-  border-radius: full;
-  font-size: 0.8rem;
-  font-weight: bold;
+.circle {
+    width: 48px;
+    height: 48px;
+    background-color: #4caf50; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
+.text {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
 .header-right {
   display: flex;
   align-items: center;
@@ -83,7 +91,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 2rem;
-  background-color: #16213e;
+
   border-bottom: 1px solid #2a2a4a;
 }
 

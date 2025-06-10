@@ -36,7 +36,14 @@ export default function App() {
       </header>
       <div className="low-header">
         <div className="event-title">
-            <span className="demo-badge">DEMO</span>
+          <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="32" rx="11" fill="white" fill-opacity="0.04"/>
+            <path d="M26 15.3333H16.5533L18.94 12.94L18 12L14 16L18 20L18.94 19.06L16.5533 16.6667H26V15.3333Z" fill="white"/>
+          </svg>
+
+            <div className="circle">
+              <span className="text">DEMO</span>
+            </div>
             Paradox Productions Meet-Up
         </div>
         <div id="docs">
