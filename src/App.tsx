@@ -65,7 +65,7 @@ export default function App() {
         <span>Logs</span>
         <span>Finance | </span>
         <span>Post Event | </span>
-        <span>Child Events</span>
+        <span>Child Events</span> 
       </nav>
 
       <main className="main-content">
