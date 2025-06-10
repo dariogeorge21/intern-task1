@@ -57,14 +57,14 @@ export default function App() {
       <nav className="navbar">
         <span>Overview</span>
         <span>Insights</span>
-        <span className="active">Guests</span>
+        <span className="active">Guests | </span>
         <span>Event Page</span>
-        <span>Form Builder</span>
+        <span>Form Builder | </span>
         <span>Scan QR</span>
-        <span>In-Event</span>
+        <span>In-Event | </span>
         <span>Logs</span>
-        <span>Finance</span>
-        <span>Post Event</span>
+        <span>Finance | </span>
+        <span>Post Event | </span>
         <span>Child Events</span>
       </nav>
 
