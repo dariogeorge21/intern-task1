@@ -367,17 +367,38 @@ body {
   gap: 0.5rem;
 }
 
-.page-controls button {
-  background-color: #2a2a4a;
-  border: 1px solid #666;
-  color: #fff;
-  padding: 0.5rem 0.75rem;
-  border-radius: 4px;
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: #1e1e1e;
+  color: #666; 
+  border: none;
+  padding: 5px 10px;
+  font-size: 24px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: color 0.3s;
 }
 
 .page-controls button:hover {
   background-color: #3a3a5a;
+}
+
+.end{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.links{
+  display: flex;
+  gap: 1rem;
+}
+.logo img {
+  width: 4220px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
