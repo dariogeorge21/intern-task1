@@ -25,16 +25,24 @@ export default function App() {
       <header className="header">
         <div className="header-left">
           <div className="logo">MeetMyPass</div>
-          <div className="event-title">
-            <span className="demo-badge">DEMO</span>
-            Paradox Productions Meet-Up
-          </div>
+          
         </div>
         <div className="header-right">
-          <span>Hi user@gmail.com</span>
-          <button className="view-docs">View Docs</button>
+          <div className="user-info">
+            <span>Hi user@gmail.com </span>
+            <div className="avatar">U</div>
+          </div>
         </div>
       </header>
+      <div className="low-header">
+        <div className="event-title">
+            <span className="demo-badge">DEMO</span>
+            Paradox Productions Meet-Up
+        </div>
+        <div id="docs">
+          <button className="view-docs">View Docs</button>
+        </div>
+      </div>
 
       <nav className="nav-tabs">
         <span>Overview</span>
@@ -107,8 +115,7 @@ export default function App() {
         <section className="guests-section">
           <h2>Guests List</h2>
           <div className="search-bar">
-            
-            <input type="text" placeholder="Search"  />
+            <input type="text" placeholder="Search" />
           </div>
 
           <div className="guests-header">
